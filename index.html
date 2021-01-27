@@ -3,11 +3,9 @@
 <head>
 	<title>moviegator</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<script data-ad-client="ca-pub-1157531998062231" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	
 </head>
 <body>
-	
-	
 
 	<div class="mainwrapper">
 
@@ -47,6 +45,58 @@
 
 </div>
 
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  
+  <img src="images/upside.jpg" style="width:100%">
+ 
+</div>
+
+<div class="mySlides fade">
+  
+  <img src="images/share.jpg" style="width:100%">
+
+</div>
+
+<div class="mySlides fade">
+  
+  <img src="images/CW_Legends.jpg" style="width:100%">
+  
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+<marquee>DOWLOAD FREE MOVIES ON MOVIEGATOR.  YOU CAN DOWNLOAD NEWLY REALESED MOVIES ON MOVIEGATOR FOR FREE.     YOU CAN DOWNLOAD SERIES AND E</marquee>
+
 
 <div id="wrapper">
 
@@ -61,12 +111,13 @@
 
 	           <div class="movie">
 	           	<div class="movieimage">
-
 	           		
 	           		<a href="fowl.html">
 	           			<img src="images/movie1.jpg">
-	           		</a>
 
+	           		</a>
+	           		<p>arthemis fowl</p>
+	 
 
 	           		
 	           	
@@ -233,25 +284,7 @@
 	           		   <img src="images/thief.jpg">
 	           		</a>
 
-	           		
-
-
-
-
-
-
-
-
-
-
-
-
-
-	           
-
-	           			
-
-	           		
+	           	
 	          
 	          
 
