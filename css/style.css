@@ -5,6 +5,7 @@
 }
 
 body {
+	position: relative;
 	font-size:12px;
 	line-height:1.3;
 	font-family:Arial, Helvetica, Sans-Serif;
@@ -187,12 +188,6 @@ body {
 	border-bottom:1px dashed #666;
 }
 
-.fzmovies{
-	padding: 500px;
-}
-.fzmovies img{
-	padding-right: 350px;
-}
 
 
 * {box-sizing: border-box;}
@@ -263,6 +258,7 @@ img {vertical-align: middle;}
 }
 
 .movieimage img{
+
 	padding-left: 20px;
 }
 
@@ -270,6 +266,19 @@ img {vertical-align: middle;}
 @media(max-width: 1000px){
 	.movieimage img{
 	padding-left: 130px;
+}
+
+.movietxt{
+	padding-left: 150px;
+}
+.txt2{
+	padding-left: 70px;}
+	.txt3{
+	padding-left: 60px;}
+	.txt4{
+	padding-left: 70px;}
+	.txt4{
+	padding-left: 70px;
 }
 
 .slideshow-container img{
@@ -296,5 +305,48 @@ body{
 
 
 
+}
+
+.movie{
+	padding-top: 52px;
+ }
+ @media(min-width: 1000px){
+ 	.movietxt{
+	padding-left: 100px;}
+	.txt2{
+	padding-left: 50px;
+}
+.txt3{
+	padding-left: 100px;
+}
+.txt4{
+	padding-left: 100px;
+}
+.txt4{
+	padding-left: 100px;
+}
+
 
 }
+
+.more{
+	padding: 12px;
+	color: white;
+	border-radius: 5px;
+	
+	cursor: pointer;
+	margin-left: 500px;
+
+
+}
+
+
+ a {
+	font-size:14px;
+	font-weight:bold;
+	color:#fff;
+	text-decoration:none;
+}
+
+
+
